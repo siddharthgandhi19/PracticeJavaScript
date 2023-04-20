@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>What can JS Do?</h1>
+    <p id="intro">Can change HTML content</p>
+
+    <button onclick='document.getElementById("intro").innerHTML = "HelloWorld"'>ClickME</button>
+
+    <!-- innerHTML is a property in JavaScript that is used to access or modify the HTML content within an element.
+It allows you to get or set the HTML content of an element as a string -->
+
+<h1 id="add"> addition is </h1>
+<script>
+    // window.alert(5 + 6)
+document.getElementById("add").innerHTML = 10+10;
+
+document.write(5+6);
+</script>
+
+<button onclick='document.write(5+6)'  >click me to add 5 + 6</button>
+
+</body>
+</html>
+
+
+

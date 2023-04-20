@@ -70,9 +70,24 @@ const arrayOfNumbers = [1,4,6,8]
 
 // console.log(map1)
 
-//-----------------------Rest
-let a, b, rest;
+// //-----------------------Rest
+// let a, b, rest;
 
-[a, b, ...rest] = [10, 20, 30, 40, 50];
+// [a, b, ...rest] = [10, 20, 30, 40, 50];
 
-console.log(rest);
+// console.log(rest);
+
+
+
+////JavaScript Promises
+//A Promise is a JavaScript object that links "Producing Code" and "Consuming Code".
+
+//"Producing Code" can take some time and "Consuming Code" must wait for the result.
+
+
+
+let text = "Hello world, welcome to the universe.";
+// document.getElementById("ES6DEMO").innerHTML = text.includes("world");
+// document.getElementById("ES6DEMO").innerHTML = text.startsWith("Hello");
+document.getElementById("ES6DEMO").innerHTML = text.endsWith("universe.");
+
